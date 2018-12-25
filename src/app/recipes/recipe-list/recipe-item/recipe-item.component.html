@@ -1,0 +1,14 @@
+<a style="cursor: pointer" class="list-group-item list-group-item-action" [routerLink]="[index]" routerLinkActive="active">
+  <img class="float-right" src="{{ recipe.imgPath }}"
+       style="height: 60px; max-width: 70px">
+  <h4>{{ recipe.name }}</h4>
+  <span>{{ recipe.description }}</span>
+</a>
+
+<!--<a href="#" class="list-group-item list-group-item-action d-flex   align-items-start" style="cursor: pointer" [routerLink]="[index]" routerLinkActive="active">
+  <div class="w-100">
+    <h4 class="mb-1 text-left">{{ recipe.name }}</h4>
+    <span>{{ recipe.description }}</span>
+  </div>
+  <img class="d-block float-right img-thumbnail img-fluid" src="{{ recipe.imgPath }}" width="60" height="60" > </a>
+-->
